@@ -43,6 +43,6 @@ func GetIcpInfo(domain string, rodScraper *crawler.RodScraper) *esicp.ESIcpInfo 
 }
 
 func main() {
-	icpInfo := GetIcpInfo("socmap.net", nil)
+	icpInfo := GetIcpInfo("examole.com", nil)
 	fmt.Println("------------>", icpInfo)
 }
